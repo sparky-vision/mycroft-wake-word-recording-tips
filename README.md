@@ -24,7 +24,7 @@ The process is quite straightforward. First, I record in Audacity. I could do th
 
 Of course, now, because we're in Audacity, it makes it very easy to see any extraneous noise that needs to be cleaned up, chairs creaking, etc. All of this can be done quickly by looking at the waveform, then exporting the audio. Any other adjustments to the file can be done at this point - de-noising, correcting gain or clipping, etc.
 
-In WavePad, it's a simple task to open the long file, and then use the Edit -> Split File -> Split at silences command to generate the individual files. It works a charm - and the WavePad is perfectly free for non-commercial use. Using this method, once I dialed in the proper threshold for silences, the program output perfectly-chopped up instances of my wake-word.
+In WavePad, it's a simple task to open the long file, and then use the Edit -> Split File -> Split at silences command to generate the individual files. (I beleive a <a href="https://manual.audacityteam.org/man/silence_finder.html">similar function exists in Audacity</a>.) It works a charm - and the WavePad is perfectly free for non-commercial use. Using this method, once I dialed in the proper threshold for silences, the program output perfectly-chopped up instances of my wake-word.
 
 ![wavpad_01](https://user-images.githubusercontent.com/33769453/119027332-d15b6880-b96b-11eb-8bbf-2f2cf2590d02.jpg)
 ![wavpad_02](https://user-images.githubusercontent.com/33769453/119027337-d3252c00-b96b-11eb-8b29-ab439eb69ef8.jpg)
